@@ -29,7 +29,7 @@ As international online orders grew, the IT department faced mounting pressure t
 | **Backups** | No (Gap) | Critical business and customer data are not backed up. |
 | **Intrusion Detection System (IDS)** | No (Gap) | No active network monitoring/alerting tool deployed to detect suspicious traffic. |
 | **Encryption** | No (Gap) | Credit card data is accepted, processed, transmitted, and stored locally without encryption. |
-| **Password Management System** | No (Gap) | No centralized system to enforce complexity or streamline password resets. |
+| **Password Policies** | No (Gap) | Nominal policy exists, but requirements are too minimal to prevent unauthorized access. |
 | **Legacy System Maintenance** | No (Gap) | End-of-life systems rely on irregular manual monitoring with unclear intervention procedures. |
 | **Password Policies** | Yes (Weak) | A nominal policy exists but lacks modern complexity standards (length, numbers, symbols). |
 | **Firewall & Antivirus Software** | Yes | Configured firewall rules block unauthorized traffic; antivirus is installed and monitored. |
@@ -40,7 +40,7 @@ As international online orders grew, the IT department faced mounting pressure t
 ## 4. Regulatory Compliance Evaluation
 * **Payment Card Industry Data Security Standard (PCI DSS) — Non-Compliant:** Fails core requirements due to unencrypted cardholder data in transit and at rest, unrestricted employee access to payment records, and weak password enforcement.
 * **General Data Protection Regulation (GDPR) — Partially Compliant:** Meets breach notification (72-hour E.U. customer notification plan) and internal privacy documentation requirements, but fails data security/privacy and asset classification standards due to lack of encryption and access restrictions.
-* **System and Organization Controls (SOC Type 1 & Type 2) — Partially Compliant:** Data integrity and availability controls are in place, but formal user access policies and confidentiality protections for PII/SPII are missing.
+* **System and Organization Controls (SOC Type 1 & Type 2) — Partially Compliant:** Data integrity controls are in place, but formal user access policies, confidentiality protections (encryption) for PII/SPII, and proper authorization boundaries for data availability are missing.
 
 ---
 
